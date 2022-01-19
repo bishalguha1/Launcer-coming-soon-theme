@@ -71,7 +71,7 @@ function launcer_css_head(){
 
 add_action('wp_head', 'launcer_css_head');
 
-
+add_filter('acf/settings/remove_wp_meta_box', '__return_false');
 
 
 
